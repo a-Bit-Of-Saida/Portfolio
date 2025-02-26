@@ -19,5 +19,5 @@ jobs:
           server: saidacovrk.de
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /saidacovrk.de/httpdocs/build/
-          local-dir: ./build
+          server-dir: /saidacovrk.de/httpdocs/build
+          local-dir: ./build/
